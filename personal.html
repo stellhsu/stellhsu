@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Illustration | Stella Hsu</title>
+    <link rel="stylesheet" href="css/main-style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+    </head>
+
+    <body>
+
+    <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+      </div>
+    
+      <nav class="top">
+        <div class="hamburger">&#9776;</div>
+        <ul class="menu">
+          <li><a href="illustration.html">Illustration</a></li>
+                <li><a href="design.html">Design</a></li>
+                        <li><a href="personal.html">Personal</a></li>
+                        <li><a href="http://instagram.com/stellhsu" target="_blank">Instagram</a></li>
+    </ul>
+      </nav>
+      
+      
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide" style="background-image: url(images/drawings/bikers-resize.jpg);">
+                <div class="overlay"></div>
+            </div>
+
+            <div class="swiper-slide" style="background-image: url(images/drawings/heads_resize.jpg);">
+                <div class="overlay"></div>
+            </div>
+
+            <div class="swiper-slide" style="background-image: url(images/drawings/lifedraw_resize.jpg);">
+                <div class="overlay"></div>
+            </div>
+
+
+            <div class="swiper-slide" style="background-image: url(images/drawings/studio_resize.jpg);">
+                <div class="overlay"></div>
+            </div>
+
+            <div class="swiper-slide" style="background-image: url(images/drawings/buddy/buddy_me.jpg);">
+                <div class="overlay"></div>
+            </div>
+
+            <div class="swiper-slide" style="background-image: url(images/drawings/sequence-meow_resize.jpg);">
+                <div class="overlay"></div>
+            </div>
+
+            <div class="swiper-slide" style="background-image: url(images/drawings/buddy/buddy_hungry.jpg);">
+                <div class="overlay"></div>
+            </div>
+
+            <div class="swiper-slide" style="background-image: url(images/drawings/buddy/buddy_night.jpg);">
+                <div class="overlay"></div>
+            </div>
+
+            <div class="swiper-slide" style="background-image: url(images/drawings/buddy/buddy_pee.jpg);">
+                <div class="overlay"></div>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <div class="selfie">
+        <img src="images/selfie2.jpg" alt="logo" class="selfie">
+      </div>
+  
+  <p> Meow, contact me at <br>stellhsu.png@gmail(dot)com</p>
+
+  <footer class="bottom">
+    <a href="https://www.instagram.com/stellhsu/" target="_blank"> IG</a> |
+    <a href="https://www.linkedin.com/in/stellhsu/" target="_blank">LinkedIn</a> |
+    <a href="mailto:stellhsu.png@gmail.com">Contact</a>
+</footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: {
+                delay: 1200,
+                disableOnInteraction: false
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+            },
+            effect: 'fade',
+            fadeEffect: {
+                crossFade: true
+            }
+        });
+    </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const hamburger = document.querySelector(".hamburger");
+      const menu = document.querySelector(".menu");
+  
+      hamburger.addEventListener("click", function () {
+        menu.classList.toggle("show");
+      });
+    });
+  </script>     
+
+
+</body>
+
+</html>

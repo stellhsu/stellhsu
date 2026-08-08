@@ -304,7 +304,7 @@ main.parent {
 
   .logo {
     position: fixed;
-    top: -3%;
+    top: -5%;
     left: 8.5%;
     transform: translateX(-50%) scale(0.6);
     z-index: 1001;

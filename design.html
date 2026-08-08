@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main-style.css">
+</head>
+<body>
+    <div class="logo">
+      <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        </div>
+      
+        <nav class="top">
+          <div class="hamburger">&#9776;</div>
+          <ul class="menu">
+            <li><a href="illustration.html">Illustration</a></li>
+                  <li><a href="design.html">Design</a></li>
+                          <!-- <li><a href="animation.html">Animation</a></li> -->
+                          <li><a href="personal.html">Personal</a></li>
+                          <li><a href="http://instagram.com/stellhsu" target="_blank">Instagram</a></li>
+      </ul>
+        </nav>
+
+      <section class="team-wrapper">
+        <div class="team">
+
+          <img src="images/mockups/quit-wine.jpg" alt="quit-it-wine" width="300" height="300">
+          <img src="images/mockups/rock_wine.jpg" alt="quit-it-wine" width="300" height="300">
+          <img src="images/animation/glass-wine.gif" alt="quit-it-wine" width="300" height="300">
+          <img src="images/animation/rocks-wine.gif" alt="quit-it-wine" width="300" height="300">
+        </div>
+
+        <article class="team-info">
+          <h3>Quit it! Wine</h3>
+          <p> Finally, a wine label that makes you feel guilty for drinking.
+          </p>
+        </article>
+      </section>
+
+
+      <div class="poster">
+        <img
+          src="images/mockups/ticket_resize.jpg"
+          alt="museum-tickets"
+          style="padding-top: 100px;"
+        >
+      
+        <img
+          src="images/mockups/glow_mockup_resize.jpg"
+          alt="museum-tickets"
+        >
+      </div>
+      
+
+      
+      <footer class="bottom">
+        <a href="https://www.instagram.com/stellhsu/" target="_blank"> IG</a> |
+        <a href="https://www.linkedin.com/in/stellhsu/" target="_blank">LinkedIn</a> |
+        <a href="mailto:stellhsu.png@gmail.com">Contact</a>
+    </footer>
+      
+    
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            const hamburger = document.querySelector(".hamburger");
+            const menu = document.querySelector(".menu");
+        
+            hamburger.addEventListener("click", function () {
+              menu.classList.toggle("show");
+            });
+          });
+        </script>
+        
+        <script src="navigation.js"></script>
+</body>
+</html>

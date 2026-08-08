@@ -325,7 +325,7 @@ main.parent {
     top: 0;
     left: 0;
     width: 100%;
-    height: 75px;
+    height: 80px;
     /* adjust to match your logo height */
     background-color: white;
     z-index: 998;
@@ -376,7 +376,7 @@ main.parent {
   }
 
 .poster img{
-  width: 170%;
+  width: 200%;
     height: auto;
 }
   .container {

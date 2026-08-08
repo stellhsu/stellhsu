@@ -274,7 +274,7 @@ main.parent {
 
 
 /* media query */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   .intro p {
     display: flex;
     -webkit-column-count: 1;
@@ -283,6 +283,18 @@ main.parent {
     min-width: auto;
     justify-content: center;
     align-items: center;
+  }
+
+  nav.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99%;
+    justify-content: center;
+    height: 80px;
+    /* adjust to match your logo height */
+    background-color: white;
+    z-index: 998;
   }
 
     .row,
@@ -304,7 +316,7 @@ main.parent {
 
   .logo {
     position: fixed;
-    top: -3%;
+    top: -2%;
     left: 8.5%;
     transform: translateX(-50%) scale(0.6);
     z-index: 1001;
@@ -317,18 +329,6 @@ main.parent {
     align-items: center;
     /* Centers vertically if the container has height */
     gap: 50px;
-  }
-
-
-  nav.top {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    /* adjust to match your logo height */
-    background-color: white;
-    z-index: 998;
   }
 
   nav.top .hamburger {
@@ -376,7 +376,7 @@ main.parent {
   }
 
 .poster img{
-  width: 280%;
+  width: 200%;
     height: auto;
 }
   .container {
@@ -422,8 +422,8 @@ main.parent {
 
   }
 }
+* media query end */
 
-/* media query end */
 
 footer {
   position: fixed;

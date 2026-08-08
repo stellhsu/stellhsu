@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Vue.js Fullpage Scroll</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+  <nav class="top">
+    <div class="hamburger">&#9776;</div>
+    <ul class="menu">
+        <li><a href="carousel.html">Illustration</a></li>
+            <li><a href="design.html">Design</a></li>
+                    <!-- <li><a href="animation.html">Animation</a></li> -->
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="http://instagram.com/stellhsu" target="_blank">Instagram</a></li>
+</ul>
+  </nav>
+
+<!-- partial:index.partial.html -->
+<div id="app">
+  <div class="sections-menu">
+    <span class="menu-point" v-bind:class="{active: activeSection == index}" v-on:click="scrollToSection(index)" v-for="(offset, index) in offsets" v-bind:key="index" v-title="
+'Go to section ' + (index+1)">
+    </span>
+  </div>
+  <section class="fullpage blue">
+    <h1>Vue.js Fullpage Scroll</h1>
+    <p>by <a href="https://webdeasy.de/?referer=cp-NVOEBL" target="_blank">webdeasy.de</a></p>
+  </section>
+  <section class="fullpage black">
+    <h1>Section 2</h1>
+    <p>made with <a href="https://vuejs.org/" target="_blank">Vue.js</a></p>
+  </section>
+  <section class="fullpage red">
+    <h1>Section 3</h1>
+    <p>works on <span><b>desktop & mobile</b></span> devices</p>
+  </section>
+  <section class="fullpage purple">
+    <h1>Section 4</h1>
+    <p>tested in all <span><b>modern browsers</b></span></p>
+  </section>
+  <section class="fullpage green">
+    <h1>Section 5</h1>
+    <p>check the tutorial <a href="https://webdeasy.de/en/programming-vue-js-fullpage-scroll/?referer=cp-NVOEBL" target="_blank">here</a></p>
+  </section>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

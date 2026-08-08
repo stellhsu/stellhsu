@@ -274,7 +274,7 @@ main.parent {
 
 
 /* media query */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   .intro p {
     display: flex;
     -webkit-column-count: 1;
@@ -304,14 +304,12 @@ main.parent {
 
   .logo {
     position: fixed;
-    top: -2%;
-    left: 8%;
+    top: -1.5%;
+    left: 8.5%;
     transform: translateX(-50%) scale(0.6);
     z-index: 1001;
   }
 
-
-  /* design imgs */
   .design {
     /* display: flex; */
     justify-content: center;
@@ -327,7 +325,7 @@ main.parent {
     top: 0;
     left: 0;
     width: 100%;
-    height: 72px;
+    height: 75px;
     /* adjust to match your logo height */
     background-color: white;
     z-index: 998;
@@ -337,7 +335,7 @@ main.parent {
     display: block;
     position: fixed;
     top: 1%;
-    left: 90%;
+    left: 88%;
     background-color: #ffffff;
     padding: 5px;
     border-radius: 0;
@@ -377,7 +375,10 @@ main.parent {
     display: none;
   }
 
-
+.poster img{
+  width: 170%;
+    height: auto;
+}
   .container {
     flex-direction: column;
     align-items: center;

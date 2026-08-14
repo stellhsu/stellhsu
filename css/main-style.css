@@ -381,10 +381,6 @@ footer {
     transition: color 0.3s ease;
   }
 
-  footer {
-    display: none;
-  }
-
 .poster img{
   width: 200%;
     height: auto;

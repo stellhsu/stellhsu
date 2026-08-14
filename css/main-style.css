@@ -431,5 +431,18 @@ footer {
     margin-top: 6em;
 
   }
+  
+ footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 1.5em;
+  bottom: 0;
+  right: 0;
+height: 30px;
+    background-color: white;
+}
+  
 }
 * media query end */

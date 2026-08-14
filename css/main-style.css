@@ -282,7 +282,6 @@ footer {
 }
 
 
-
 /* media query */
 @media only screen and (max-width: 700px) {
   .intro p {
@@ -429,7 +428,6 @@ footer {
   .selfie {
     width: 65%;
     margin-top: 6em;
-
   }
 }
 * media query end */

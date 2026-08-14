@@ -424,8 +424,7 @@ main.parent {
 }
 * media query end */
 
-
-.footer {
+footer {
   position: fixed;
   text-align: right;
   bottom: 1em;

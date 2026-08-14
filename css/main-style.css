@@ -272,6 +272,16 @@ main.parent {
   transition: flex 0.4s;
 }
 
+footer {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  text-align: right;
+  color: #f2b90c;
+  z-index: 1000;
+}
+
+
 
 /* media query */
 @media only screen and (max-width: 700px) {
@@ -423,11 +433,3 @@ main.parent {
   }
 }
 * media query end */
-
-footer {
-  position: fixed;
-  text-align: right;
-  bottom: 1em;
-  right: 1em;
-  color: #f2b90c;
-}
